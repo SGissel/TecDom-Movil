@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526865534206",
+    "project_id": "tec2-8a3cc",
+    "storage_bucket": "tec2-8a3cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526865534206:android:e97b1a5d3bec0ac9fc69af",
+        "android_client_info": {
+          "package_name": "com.example.loginxd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526865534206-kbh42u85at9n00slgv15vcu4r302f0ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACsh9Jjw89xwpPaPwYKgLyJFnMBwFV0jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526865534206-kbh42u85at9n00slgv15vcu4r302f0ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

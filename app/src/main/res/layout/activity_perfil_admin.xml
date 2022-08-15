@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".perfil_admin">
+
+    <ImageView
+        android:id="@+id/imgperfil"
+        android:layout_width="175dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/admin" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/trochut"
+        android:text="Pedro López Hernández"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:id="@+id/imgSalir"
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="clickSalir"
+        android:src="@drawable/ic_baseline_login_24" />
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="15dp"
+    android:layout_weight="1"
+    android:background="@drawable/card"
+    android:backgroundTint="#FFFF"
+    tools:layout_editor_absoluteX="316dp"
+    tools:layout_editor_absoluteY="67dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/NombreCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sairacondensed"
+
+                android:padding="10dp"
+                android:text="Nombre"
+                android:textColor="#070707"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/ModeloCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sairacondensed"
+                    android:text="Modelo"
+                    android:textColor="#070707"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/IPCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sairacondensed"
+                    android:text="IP"
+                    android:textColor="#070707"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/FechaCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sairacondensed"
+                    android:text="Fecha"
+                    android:textColor="#070707"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/TelefonoCliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sairacondensed"
+                    android:text="Telefono"
+                    android:textColor="#070707"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

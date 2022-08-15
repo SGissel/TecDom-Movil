@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".UserActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/barra" />
+
+        <TableRow android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="320dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_margin="9dp"
+                android:layout_marginEnd="9dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="25dp">
+
+                <ImageView
+                    android:onClick="basic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nube" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2DD1CBCB"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/trochut"
+                        android:padding="40dp"
+                        android:text="Basic "
+                        android:textAlignment="center"
+                        android:textColor="#070707"
+                        android:textSize="60sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="330dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_margin="9dp"
+                android:layout_marginEnd="9dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="25dp">
+                <ImageView
+                    android:onClick="multi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ciudad"
+                    android:scaleType="centerCrop"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2DD1CBCB"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="40dp"
+                        android:text="Multi"
+                        android:fontFamily="@font/trochut"
+                        android:textAlignment="center"
+                        android:textColor="#070707"
+                        android:textSize="60sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="390dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+
+                <ImageView
+                    android:onClick="Luxury"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bosque" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#45DFDBDB"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/trochut"
+                        android:padding="40dp"
+                        android:text="Luxury"
+                        android:textAlignment="center"
+                        android:textColor="#070707"
+                        android:textSize="60sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/trochut"
+                android:onClick="Otros"
+                android:padding="50dp"
+                android:text="Otros Servicios"
+                android:textAlignment="center"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
