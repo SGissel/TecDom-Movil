@@ -94,13 +94,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         if (FirebaseAuth.getInstance().getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));//revisar
             finish();
         }
     }
 
     public void clickRegresar(View view) {
-        startActivity(new Intent(getApplicationContext(),UserActivity.class));
+        startActivity(new Intent(getApplicationContext(),UserActivity.class));//
         finish();
     }
 }

@@ -30,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
         mRecycler.setLayoutManager(new LinearLayoutManager(this));
         Query query = mFirestore.collection("RClientes");
         FirestoreRecyclerOptions<Clientes> firestoreRecyclerOptions = new FirestoreRecyclerOptions.Builder<Clientes>().setQuery(query, Clientes.class).build();
-        mAdapter = new ClientesAdapter(firestoreRecyclerOptions);
+        mAdapter = new ClientesAdapter(firestoreRecyclerOptions, this);
         mAdapter.notifyDataSetChanged();
         mRecycler.setAdapter(mAdapter);
     }

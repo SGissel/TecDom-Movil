@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Editar_registros">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="190dp"
+        android:padding="16dp"
+        tools:context=".Agregar">
+
+
+        <EditText
+            android:id="@+id/nombre_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="98dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input_editar"
+            android:drawablePadding="10dp"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="end"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:id="@+id/telefono_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input_editar"
+            android:drawablePadding="10dp"
+            android:hint="Telefono"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="end"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:id="@+id/ip_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input_editar"
+            android:drawablePadding="10dp"
+            android:hint="IP"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="end"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_color"
+            android:elevation="5dp"
+            android:text="Actualizar"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            app:rippleColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="261dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="225dp"
+        android:paddingLeft="110dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/man" />
+
+    <ImageView
+        android:id="@+id/btnEliminar"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_baseline_delete_outline_24" />
+    <ImageView
+        android:id="@+id/regresar"
+        android:onClick="Regresar"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/regresar" />
+
+
+
+
+
+</RelativeLayout>
